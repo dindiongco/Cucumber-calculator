@@ -42,7 +42,7 @@ public class CalculatorStepDefinitions {
 	@When("the first number is divided by the second")
 	public void the_first_number_is_divided_by_the_second() {
 		if (num1 != 0 & num2 != 0) {
-			  this.actualResult = this.calculator.divide(num1, num2);
+			this.actualResult = this.calculator.divide(num1, num2);
 		}
 	}
 	
